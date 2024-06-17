@@ -18,6 +18,14 @@ buttons.forEach(btn => {
     })
 });
 
+// buttons.forEach(btn => {
+//     btn.addEventListener("click", () => {
+//       // Clear screen only if needed (evaluation happened or delete button)
+//       screen.value = (screen.value === "" || btn.id === "delete") ? "" : screen.value;
+//       screen.value += btn.value;
+//     });
+//   });
+
 clearEle.addEventListener("click", () => {
     screen.value = "";
 });
@@ -28,5 +36,4 @@ deleteEle.addEventListener("click", () => {
 
 equalBtn.addEventListener("click", () => {
     screen.value = eval(screen.value);
-    // screen.value = "";
 });
