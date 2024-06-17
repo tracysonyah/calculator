@@ -28,6 +28,7 @@
     margin-top: 40px;
     margin-bottom: 20px;
     background: white;
+    color: #E53571;
 }
 
 .btn, .equal-btn {
@@ -37,7 +38,7 @@
     border-radius: 5px;
     color: white;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .equal-btn:focus,
@@ -50,7 +51,7 @@
 
 .equal-btn:hover,
 .btn:hover {
-    background: #118b8d;
+    background: #d64a79;
 }
 
 .btn,
@@ -59,7 +60,8 @@
 .equal-btn:visited,
 .btn:active,
 .btn:visited {
-    background-color: #017374;
+    background-color: #E53571;
+    /* background-color: #017374; */
     border-color: #017374;
 }
 
